@@ -1,0 +1,128 @@
+.container{
+    max-width: 1834px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+}
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+    left: 50px;
+  }
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+.logo {
+    font-family: 'Inter', sans-serif;
+  }
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+  }
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+    font-family:'Inter', sans-serif ;
+  }
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+.box {
+    display: inline-flex;
+    flex-flow:row wrap;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    opacity: 1px;
+    align-items:center;
+    list-style: none;
+    width: 374px;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.produtos {
+   
+    height: 207px;
+    top: 114px;
+    left: 130px;
+    border-radius: 8px;
+    max-width: 100%;
+    align-content: flex-start;
+    margin: 0 auto;
+}
+
+.precos {
+   
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  top: auto;
+  bottom: unset;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
+  font-weight: bold;
+  top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  align-content: flex-start;
+  margin: 0 auto;
+}
+
+.texto_produto {
+    font-family: 'Inter', sans-serif;
+    width: 335;
+    top: 410px;
+    left: 151px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: left;
+    right: 16px;
+  }
+  
+.botao {
+  width: 335px;
+  height: 48px;
+  left: 133px;
+  top: 540px;
+  font-family: 'Inter', sans-serif;
+  background: #4C6EF5;
+  border: 1.5px solid #4C6EF5;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 auto;
+}
+ 
+.products-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  
+ }
